@@ -1,0 +1,53 @@
+[
+  {
+    "project_id": "project1",
+    "images": [
+      "projects/youtube1.JPG",
+      "projects/youtube2.JPG",
+      "projects/youtube3.JPG"
+    ],
+    "tech_stack": ["tech/html_img.png", "tech/css.png"],
+    "project_title": "You Tube Clone",
+    "project_live": "https://youtube-clone-jyotiranjan98.vercel.app/",
+    "project_github": "https://github.com/jyotiranjan98/YoutubeClone",
+    "projectDetails": "Clone of youtube.com using youtube API where user can watch and search videos."
+  },
+  {
+    "project_id": "project2",
+    "images": [
+      "projects/github1.JPG",
+      "projects/github2.JPG",
+      "projects/github3.JPG"
+    ],
+    "tech_stack": ["tech/html_img.png", "tech/css.png", "tech/js.jpg"],
+    "project_title": "Github Clone",
+    "project_live": "https://git-hub-clone-jyotiranjan.vercel.app/",
+    "project_github": "https://github.com/jyotiranjan98/GitHubClone",
+    "projectDetails": "Clone of github.com using Github API user can search their profiles & Authorization."
+  },
+  {
+    "project_id": "project4",
+    "images": [
+      "projects/recipe1.JPG",
+      "projects/recipe2.JPG",
+      "projects/recipe3.JPG"
+    ],
+    "tech_stack": ["tech/html_img.png", "tech/css.png", "tech/js.jpg"],
+    "project_title": "Food Recipe App",
+    "project_live": "https://food-recipe-jyotiranjan.vercel.app/",
+    "project_github": "https://github.com/jyotiranjan98/FoodRecipe",
+    "projectDetails": "Using themealdb API i try to make where user can search any type of food recepie and user friendly steps to understand."
+  },
+  {
+    "project_id": "project5",
+    "images": ["projects/weather.JPG"],
+    "tech_stack": ["tech/html_img.png", "tech/css.png", "tech/js.jpg"],
+    "project_title": "Weather App",
+    "project_live": "https://weather-app-jyotiranjan.vercel.app/",
+    "project_github": "https://github.com/jyotiranjan98/Weather-app",
+    "projectDetails": "It's Simple Weather APP using openweathermap API we can find any place temp, Map & coming forecast of weather."
+  }
+  
+  
+  
+]
