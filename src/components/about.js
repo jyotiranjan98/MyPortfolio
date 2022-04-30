@@ -16,7 +16,7 @@ function About() {
         <div className="container__info container__location">
           <p>
             I am <em></em>
-            <a href="https://instagram.com/silvia.diaconescu" className="link">
+            <a href="" className="link">
               Jyotiranjan Das
             </a>{" "}
             , self-motivated, hardworking aspiring full-stack web developer with
