@@ -79,7 +79,7 @@ function App() {
             ]}
             imges={["bowl.png", "bowl2.png", "bowl3.png"]}
             links={[
-              "the-bowl-company.vercel.app/",
+              "https://the-bowl-company.vercel.app/",
               "https://github.com/MadhanM282/the-bowl-company",
               // "https://player.vimeo.com/video/689858338?h=1e538fdf27",
             ]}

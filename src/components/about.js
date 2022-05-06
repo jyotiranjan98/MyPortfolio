@@ -5,18 +5,12 @@ function About() {
       <div className="container__image">
         <div className="container__info container__author">
           Hi There!,
-          {/* <a
-            class="link"
-            href="https://instagram.com/silvia.diaconescu"
-            target="_blank"
-          >
-            Shilpa Shingnapure
-          </a> */}
+          
         </div>
         <div className="container__info container__location">
           <p>
             I am <em></em>
-            <a href="" className="link">
+            <a href="#" className="link">
               Jyotiranjan Das
             </a>{" "}
             , self-motivated, hardworking aspiring full-stack web developer with
