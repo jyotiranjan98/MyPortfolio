@@ -86,13 +86,8 @@ function App() {
           />
         </div>
 
-        {/* <div className="top_right">
-          <Toproject
-            projectdata={"forestessentialsindia"}
-            imges={["forest.gif", "1.PNG", "profile.jpg"]}
-          />
-        </div> */}
-        <div
+        
+        {/* <div
           className="stack-header"
           style={{ marginBottom: "45px" }}
           data-aos={"fade-right"}
@@ -101,7 +96,7 @@ function App() {
         </div>
         <div className="project_div">
           <Projects />
-        </div>
+        </div> */}
       </div>
       <div id="contact" style={{ height: "15vh" }}></div>
       <Footer />
