@@ -91,7 +91,7 @@ function Footer() {
           <span>Jyotiranjan Das</span>
         </div>
         <div className="credit" style={{ color: "#00ffbb" }}>
-          <span>&copy; 2022</span>
+          <span>&copy; 2023</span>
         </div>
         <div className="topDiv">
           <a href="#top">
