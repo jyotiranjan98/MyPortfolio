@@ -134,10 +134,10 @@ function Projects() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img
+                    {/* <img
                       src="https://www.svgrepo.com/show/379221/open-in-new.svg"
                       alt=""
-                    />
+                    /> */}
                     <span>Visit Site</span>
                   </a>
                   <a
@@ -145,10 +145,10 @@ function Projects() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img
+                    {/* <img
                       src="https://www.svgrepo.com/show/325236/github.svg"
                       alt=""
-                    />
+                    /> */}
                     <span>Github</span>
                   </a>
                 </div>

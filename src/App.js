@@ -10,6 +10,7 @@ import TechStack from "./components/techstack";
 import Toproject from "./components/topProject";
 import Projects from "./components/project";
 import Footer from "./components/footer";
+import GitHub from "./components/github";
 
 function App() {
   useEffect(() => {
@@ -87,7 +88,7 @@ function App() {
         </div>
 
         
-        {/* <div
+        <div
           className="stack-header"
           style={{ marginBottom: "45px" }}
           data-aos={"fade-right"}
@@ -96,7 +97,11 @@ function App() {
         </div>
         <div className="project_div">
           <Projects />
-        </div> */}
+        </div>
+
+        <div className="github_div">
+            <GitHub/>
+        </div>
       </div>
       <div id="contact" style={{ height: "15vh" }}></div>
       <Footer />

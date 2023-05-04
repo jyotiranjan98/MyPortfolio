@@ -3,7 +3,6 @@
     "project_id": "project1",
     "images": [
       "projects/youtube1.JPG",
-      "projects/youtube2.JPG",
       "projects/youtube3.JPG"
     ],
     "tech_stack": ["tech/html_img.png", "tech/css.png"],
@@ -16,8 +15,7 @@
     "project_id": "project2",
     "images": [
       "projects/github1.JPG",
-      "projects/github2.JPG",
-      "projects/github3.JPG"
+      "projects/github2.JPG"
     ],
     "tech_stack": ["tech/html_img.png", "tech/css.png", "tech/js.jpg"],
     "project_title": "Github Clone",
@@ -29,8 +27,7 @@
     "project_id": "project4",
     "images": [
       "projects/recipe1.JPG",
-      "projects/recipe2.JPG",
-      "projects/recipe3.JPG"
+      "projects/recipe2.JPG"
     ],
     "tech_stack": ["tech/html_img.png", "tech/css.png", "tech/js.jpg"],
     "project_title": "Food Recipe App",

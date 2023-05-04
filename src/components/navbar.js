@@ -82,7 +82,7 @@ function Navbar() {
           <a
           onClick={handleclick}
             href={resume}
-            target="_blank"
+            target="blank"
             download
             style={{ color: "#000" }}
           >
