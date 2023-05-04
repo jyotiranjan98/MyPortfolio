@@ -1,8 +1,17 @@
 import "../App.css";
 import { useState } from "react";
+import resume from "./JyotiranjanResume.pdf"
+
 function Navbar() {
   const [toggle, settoggle] = useState(false);
   const [small, setsmall] = useState("");
+
+  const handleclick = () => {
+    window.open(
+      "https://drive.google.com/file/d/1W7XhLpd4x6Hen1KtbGlOKwii5h5GBvF4/view?usp=sharing"
+    );
+  };
+
   return (
     <div className="navbar">
       <div className="logo">
@@ -71,9 +80,10 @@ function Navbar() {
         </div>
         <div className="cv">
           <a
-            href="https://drive.google.com/file/d/1hsa020yJNYbkOnb_RKHWaLS6xo9UMt4q/view?usp=sharing"
+          onClick={handleclick}
+            href={resume}
             target="_blank"
-            rel="noopener noreferrer"
+            download
             style={{ color: "#000" }}
           >
             Resume
