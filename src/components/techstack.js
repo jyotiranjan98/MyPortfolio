@@ -26,6 +26,12 @@ function TechStack() {
             </div>
             <div>
               <div className="tech">
+                <img src={require("../img/tech/tailwind.jpg")} alt="" />
+              </div>
+              <p>Tailwind CSS</p>
+            </div>
+            <div>
+              <div className="tech">
                 <img src={require("../img/tech/js.jpg")} alt="" />
               </div>
               <p>JavaScript</p>
@@ -73,6 +79,12 @@ function TechStack() {
             </div>
             <div>
               <div className="tech">
+                <img src={require("../img/tech/nextjs.png")} alt="" />
+              </div>
+              <p>Next.js</p>
+            </div>
+            <div>
+              <div className="tech">
                 <img src={require("../img/tech/redux.png")} alt="" />
               </div>
               <p>Redux</p>
@@ -83,12 +95,12 @@ function TechStack() {
               </div>
               <p>GIT</p>
             </div>
-            <div>
+            {/* <div>
               <div className="tech">
                 <img src={require("../img/tech/postman.png")} alt="" />
               </div>
               <p>Postman</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

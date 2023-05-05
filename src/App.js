@@ -43,22 +43,44 @@ function App() {
           <p className="highlight">My projects</p>
           <h2 className="head">Top Project</h2>
         </div>
-        <div className="top_right mt" data-aos={"zoom-in-down"}>
+        {/* <div className="top_right" data-aos={"zoom-in"}>
           <Toproject
-            projectdata={"Meesho Clone"}
+            projectdata={"Levo Labz(External Project)"}
             description={
-              "Our project is regarding cloning meesho website, an online shopping store to buy various products Features:Sign-in/Sign-up User authentication Product details & Purchase page. Tech Stack: HTML | CSS | Javascript. "
+              "Levo is an one of the leading platfrom which provides services in many tech category like Web Development Mobile Applications Custom Softwares UI/UX Graphic Design SEO Optimization Performance Marketing and Staff Augmentation Tech Stack: HTML | Tailwind Css | Javascript | NextJs . "
             }
             techStack={[
               // "tech/html5.svg", "tech/css3.svg", "tech/js.svg"
               "tech/html_img.png",
-              "tech/css.png",
-              "tech/js.jpg",
+              "tech/tailwindcss.svg",
+              "tech/nextjs-icon.svg",
             ]}
-            imges={["meesho1.png", "meesho2.png", "meesho3.png"]}
+            imges={["levo1.jpeg", "levo2.jpeg", "levo3.jpeg"]}
             links={[
-              "https://meesho-clone-teal.vercel.app/",
-              "https://github.com/pooja171195/meeshoClone",
+              "https://team9-levolabz-clone.vercel.app/",
+              "https://github.com/mdshahbajalam7/team9-levolabz-clone",
+              // "https://player.vimeo.com/video/689858253?h=1744dc5262",
+            ]}
+          />
+        </div> */}
+                <div className="top_right mt" data-aos={"zoom-in-down"}>
+          <Toproject
+            projectdata={"Levo Labz(External Project)"}
+            description={
+              "Levo is an one of the leading platfrom which provides services in many tech category like Web Development Mobile Applications Custom Softwares UI/UX Graphic Design SEO Optimization Performance Marketing and Staff Augmentation Tech Stack: HTML | Tailwind Css | Javascript | NextJs . "
+            }
+            techStack={[
+              // "tech/html5.svg", "tech/css3.svg", "tech/js.svg"
+              "tech/html_img.png",
+               "tech/tailwind.jpg",
+               "tech/js.jpg",
+               "tech/nextjs.png",
+               
+            ]}
+            imges={["levo1.jpeg", "levo2.jpeg", "levo3.jpeg"]}
+            links={[
+              "https://team9-levolabz-clone.vercel.app/",
+              "https://github.com/mdshahbajalam7/team9-levolabz-clone",
               // "https://player.vimeo.com/video/689858253?h=1744dc5262",
             ]}
           />
@@ -86,7 +108,26 @@ function App() {
             ]}
           />
         </div>
-
+        <div className="top_right mt" data-aos={"zoom-in-down"}>
+          <Toproject
+            projectdata={"Meesho Clone"}
+            description={
+              "Our project is regarding cloning meesho website, an online shopping store to buy various products Features:Sign-in/Sign-up User authentication Product details & Purchase page. Tech Stack: HTML | CSS | Javascript. "
+            }
+            techStack={[
+              // "tech/html5.svg", "tech/css3.svg", "tech/js.svg"
+              "tech/html_img.png",
+              "tech/css.png",
+              "tech/js.jpg",
+            ]}
+            imges={["meesho1.png", "meesho2.png", "meesho3.png"]}
+            links={[
+              "https://meesho-clone-teal.vercel.app/",
+              "https://github.com/pooja171195/meeshoClone",
+              // "https://player.vimeo.com/video/689858253?h=1744dc5262",
+            ]}
+          />
+        </div>
         
         <div
           className="stack-header"
